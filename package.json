@@ -1,0 +1,21 @@
+{
+  "name": "streaming-farms",
+  "version": "0.9.0",
+  "description": "Factory for liquidity farms using streams for reward payments",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "git@d10r.net",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@openzeppelin/contracts": "~3.4.1",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "@superfluid-finance/ethereum-contracts": "~1.0.0-rc.4",
+    "@truffle/contract": "^4.3.23",
+    "@truffle/hdwallet-provider": "^1.4.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "base64-sol": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "truffle": "^5.3.14"
+  }
+}
